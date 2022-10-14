@@ -2,6 +2,7 @@
 function registrarEstudiante(req, res){
     const {Datos}  = req.body
     if(Datos == undefined){return res.status(400).send({Resultado: 'No se recibio Json'})}
+    if(Datos["pass"] != Datos["confirmPass"]){return res.status(400).send({Resultado: 'Las contrasenias no coinciden'})}
     if (Datos["idUsuario"] == undefined || Datos["nombres"] == undefined || Datos["apellidos"] == undefined || Datos["correoElec"] == undefined || Datos["fechaNac"] == undefined || Datos["pass"] == undefined || Datos["confirmPass"] == undefined){
         return res.status(400).send({Resultado: 'Hace falta uno o mas parametros'})
     }else {

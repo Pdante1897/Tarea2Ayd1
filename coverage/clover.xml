@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1665643903458" clover="3.2.0">
-  <project timestamp="1665643903458" name="All files">
-    <metrics statements="24" coveredstatements="14" conditionals="27" coveredconditionals="11" methods="3" coveredmethods="1" elements="54" coveredelements="26" complexity="0" loc="24" ncloc="24" packages="2" files="2" classes="2"/>
+<coverage generated="1665689687486" clover="3.2.0">
+  <project timestamp="1665689687487" name="All files">
+    <metrics statements="25" coveredstatements="25" conditionals="29" coveredconditionals="29" methods="3" coveredmethods="3" elements="57" coveredelements="57" complexity="0" loc="25" ncloc="25" packages="2" files="2" classes="2"/>
     <package name="controllers">
-      <metrics statements="16" coveredstatements="6" conditionals="27" coveredconditionals="11" methods="3" coveredmethods="1"/>
-      <file name="endpoints.controller.js" path="C:\Users\gerar\Desktop\Tarea Ayd\controllers\endpoints.controller.js">
-        <metrics statements="16" coveredstatements="6" conditionals="27" coveredconditionals="11" methods="3" coveredmethods="1"/>
-        <line num="3" count="4" type="stmt"/>
-        <line num="4" count="4" type="cond" truecount="2" falsecount="0"/>
-        <line num="5" count="3" type="cond" truecount="9" falsecount="0"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="8" count="2" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="14" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="15" count="0" type="cond" truecount="0" falsecount="4"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="24" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="25" count="0" type="cond" truecount="0" falsecount="8"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="32" count="1" type="stmt"/>
+      <metrics statements="17" coveredstatements="17" conditionals="29" coveredconditionals="29" methods="3" coveredmethods="3"/>
+      <file name="endpoints.controller.js" path="C:\Users\gerar\Desktop\Tarea Ayd\Tarea2Ayd1\controllers\endpoints.controller.js">
+        <metrics statements="17" coveredstatements="17" conditionals="29" coveredconditionals="29" methods="3" coveredmethods="3"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="4" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="5" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="3" type="cond" truecount="9" falsecount="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="15" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="25" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="3" type="cond" truecount="8" falsecount="0"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
       </file>
     </package>
     <package name="routes">
       <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="endpoints.route.js" path="C:\Users\gerar\Desktop\Tarea Ayd\routes\endpoints.route.js">
+      <file name="endpoints.route.js" path="C:\Users\gerar\Desktop\Tarea Ayd\Tarea2Ayd1\routes\endpoints.route.js">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
